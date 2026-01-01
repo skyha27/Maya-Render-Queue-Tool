@@ -129,7 +129,7 @@ class BatchRender:
 
        # Find cameras and check if valid
        all_cameras = cmds.ls(cameras=True)
-       camera_shape = camera_id + "Shape"
+       camera_shape = camera_id
        if camera_shape in all_cameras:
                print(f"Preparing to render camera {camera_shape}.")
 
